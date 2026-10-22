@@ -1,4 +1,4 @@
-# Money Manager Mobile
+THADD MOBILE APP SOURCE# Money Manager Mobile
 
 Starter Expo + TypeScript project for a mobile money manager app.
 
