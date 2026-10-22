@@ -20,8 +20,16 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Dashboard">
-        <Stack.Screen name="Dashboard" component={Dashboard} />
-        <Stack.Screen name="AddTransaction" component={AddTransaction} options={{ title: 'Add Transaction' }} />
+        <Stack.Screen
+          name="Dashboard"
+          component={Dashboard}
+          options={{ title: 'Money Manager' }}
+        />
+        <Stack.Screen
+          name="AddTransaction"
+          component={AddTransaction}
+          options={{ title: 'Add Transaction' }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
